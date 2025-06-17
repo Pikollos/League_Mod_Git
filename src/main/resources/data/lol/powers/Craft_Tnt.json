@@ -1,0 +1,25 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "custom:tnt_with_redstone",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:gunpowder"
+            },
+            {
+                "item": "minecraft:gunpowder"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            }
+        ],
+        "result": {
+            "item": "minecraft:tnt",
+            "count": 1
+        }
+    }
+}

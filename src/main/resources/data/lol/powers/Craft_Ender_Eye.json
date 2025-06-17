@@ -1,0 +1,26 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "custom:ender_eye",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "minecraft:amethyst_shard"
+            },
+            {
+                "item": "minecraft:glowstone_dust"
+            },
+            {
+                "item": "minecraft:snowball"
+            }
+            
+        ],
+        "result": {
+            "item": "minecraft:ender_eye",
+            "count": 1
+        }
+    }
+}

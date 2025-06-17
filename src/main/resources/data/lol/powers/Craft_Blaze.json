@@ -1,0 +1,33 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "custom:pozin",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:gunpowder"
+            },
+            {
+                "item": "minecraft:lava_bucket"
+            },
+            {
+                "item": "minecraft:bone_meal"
+            },
+            {
+                "item": "minecraft:glow_berries"
+            },
+            {
+                "item": "minecraft:glow_ink_sac"
+            }
+            
+        
+        ],
+        "result": {
+            "item": "minecraft:blaze_powder",
+            "count": 1
+        }
+        
+    }
+    
+}
+    

@@ -1,0 +1,32 @@
+{
+    "type": "origins:multiple",
+    "name":"Origem Final ",
+    "description":"Os seres do vazio, mantem comunicação com seus ancestrais, recebendo uma Pérola do Fim de presente sempre que acordam",
+
+    "Skill1":{
+        "type": "origins:action_on_wake_up",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:ender_pearl"
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.end_portal.spawn"
+      }
+    ]
+  }
+    },
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+
+		"lol:Craft_Ender_Eye",
+		"lol:Dormir_Vazio",
+		"lol:Dormir_Ender",
+		"lol:Food_Steal"
+	],
+	"icon": "minecraft:chorus_fruit",
+	"order": 1,
+	"impact": 1,
+	"name": "Criatura do Vazio",
+	"description": "COMIDAAAAAAA"
+}

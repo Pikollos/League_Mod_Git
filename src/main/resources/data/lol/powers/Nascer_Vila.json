@@ -1,0 +1,23 @@
+{
+    "type": "origins:multiple",
+    "name":"Nasce",
+    "description":"Vilareijo",
+
+    "Skill1":{
+        
+            "type": "origins:modify_player_spawn",
+            "dimension": "minecraft:overworld",
+            "structure": "minecraft:village",
+            "spawn_strategy": "center"
+        
+        
+    },
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}

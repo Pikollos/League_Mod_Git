@@ -1,0 +1,8 @@
+{
+    "type": "origins:effect_immunity",
+    "name":"Toxidade imunológica",
+    "description":"Após tantos anos de uso de cintila e outras substâncias, zaunitas já nem sentem mais os efeitos, sendo completamente imune a veneno",
+    "effects": [
+        "minecraft:poison"
+    ]
+}

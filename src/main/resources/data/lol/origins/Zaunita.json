@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"lol:Imunidade_Veneno",
+		"lol:Craft_Tnt",
+		"lol:Craft_Estande",
+		"lol:Craft_Fungo",
+		"lol:Craft_Blaze",
+		"lol:Fome_Zaunita",
+		"lol:Veneno_On_Hit",
+		"lol:Life_Steal",
+		"lol:Pocao_Zaunita",
+		"lol:Buff_Pocao"
+		
+	],
+	"icon": "minecraft:poisonous_potato",
+	"order": 0,
+	"impact": 1,
+	"name": "Zaunitas",
+	"description": "Passa um baguizin"
+}

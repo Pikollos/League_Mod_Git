@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"lol:Dano_Primitivo",
+		"lol:Dano_Arma_Ferro",
+		"lol:Dano_Mao"
+
+	],
+	"icon": "minecraft:rabbit",
+	"order": 0,
+	"impact": 1,
+	"name": "Vastaya",
+	"description": "Cafa"
+}

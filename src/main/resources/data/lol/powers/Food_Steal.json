@@ -1,0 +1,49 @@
+{
+    "type": "origins:multiple",
+    "name":"",
+    "description":"",
+
+    "Skill1":{
+        "type":"origins:prevent_item_use",
+        "item_condition":{
+          "type":"origins:and",
+          "conditions":[
+            {
+              "type":"origins:food"
+            },
+            {
+              "type":"origins:ingredient",
+              "ingredient":{
+                "tag":"origins:ignore_diet"
+              },
+              "inverted":true
+            }
+          ]
+        }
+    },
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+      
+        "type":"origins:self_action_on_hit",
+        "hidden":true,
+        "cooldown":20,
+        "entity_action":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type":"origins:feed",
+                    "food":1,
+                    "saturation":1
+                },
+                {
+                    "type":"origins:play_sound",
+                    "sound":"entity.slime.squish"
+                }
+            ]
+        }
+    }
+}

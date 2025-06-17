@@ -1,0 +1,5 @@
+{
+    "type": "origins:disable_regen",
+    "name":"Energia Vital",
+    "description":"Pelo fato de não contarem com vida e sim energia, robôs não regeneram corações de forma convencional, somente ao utilizar óleo"
+}

@@ -1,0 +1,7 @@
+{
+    "type": "origins:modify_player_spawn",
+    "dimension": "overworld",
+    "biome": "jungle",
+    "biome_distance_multiplier": 0.125,
+    "spawn_strategy": "center"
+  }

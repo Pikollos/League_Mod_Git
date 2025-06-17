@@ -1,0 +1,15 @@
+{
+    "type": "origins:self_action_on_kill",
+    "name":"Sedentos Por Sangue",
+    "description":"Como mestres de guerra, Noxianos tem a formidável habilidade de coletar os sangues dos derrotados e utiliza-lo para si mesmo, se curando em 0.5 coração sempre que matar um inimigo",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 2.0
+    },
+    "damage_condition": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 9.0
+    },
+    "cooldown": 20
+}

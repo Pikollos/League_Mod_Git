@@ -1,0 +1,13 @@
+{
+    "type": "origins:target_action_on_hit",
+    "name":"Aberração Quimtec",
+    "description":"A grande quantidade de radiação no corpo dos Zaunitas faz com que ao atacar, ele contamine o alvo com sua exposição à Cintila, aplicando efeito de veneno",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:poison",
+            "amplifier": 1,
+            "duration": 100
+        }
+    }
+}

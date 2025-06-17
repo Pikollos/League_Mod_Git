@@ -1,0 +1,74 @@
+{
+    "type": "origins:multiple",
+    "HUD": {
+        "type": "origins:cooldown",
+        "cooldown": 500,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 3,
+            "inverted": true
+        }
+    },
+    "Pocao": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "lol:HUD_Zaunita"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:slowness"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:blindness"
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 1.0,
+                    "saturation": 1.0
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:potion"
+            }
+        }
+    },
+    "Temporizador": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "lol:HUD_Zaunita"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:slowness"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:blindness"
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 1.0,
+                    "saturation": 1.0
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:potion"
+            }
+        }
+    }
+}

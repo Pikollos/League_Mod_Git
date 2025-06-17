@@ -1,0 +1,21 @@
+{
+    "type": "origins:multiple",
+    "name":"Equilíbrio Espiritual",
+    "description":"Concentrando toda sua energia, ninjas são imunes a qualquer dano de queda",
+
+    "Skill1":{
+        "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  }
+    },
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}

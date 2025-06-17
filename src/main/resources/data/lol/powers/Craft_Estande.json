@@ -1,0 +1,23 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "custom:tnt_with_redstone",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:lantern"
+            },
+            {
+                "item": "minecraft:redstone_torch"
+            },
+            {
+                "item": "minecraft:spyglass"
+            }
+  
+        ],
+        "result": {
+            "item": "minecraft:brewing_stand",
+            "count": 1
+        }
+    }
+}

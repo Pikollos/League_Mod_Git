@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"lol:Nascimento_Barco",
+		"lol:Nadar",
+		"lol:Armadura_Pesada",
+		"lol:Bola_Fogo"
+	],
+	"icon": "minecraft:filled_map",
+	"order": 0,
+	"impact": 1,
+	"name": "Piratas",
+	"description": "Harrr MARUJO"
+}

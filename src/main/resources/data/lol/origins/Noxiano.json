@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"lol:Nascimento_Vila",
+		"lol:Life_Steal",
+		"lol:Resistencia_Noxus",
+		"lol:Escudo_Noxiano",
+		"lol:Dano_Machado"
+		
+		
+	],
+	"icon": "minecraft:iron_axe",
+	"order": 0,
+	"impact": 1,
+	"name": "Noxiano",
+	"description": "Por Noooooxus"
+}

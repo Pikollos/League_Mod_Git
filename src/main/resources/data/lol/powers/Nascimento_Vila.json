@@ -1,0 +1,7 @@
+{
+	"type":"origins:modify_player_spawn",
+	"name":"General do Reino",
+    "description":"Toda cidade precisa de um líder, por isso noxianos começam em vilas para comandar e leva-lá ao topo da glória",
+	"dimension":"minecraft:overworld",
+	"structure":"minecraft:village_plains"
+}

@@ -1,0 +1,34 @@
+{
+    "type": "origins:multiple",
+    "name":"Seres Obscuros",
+        "description":"Como seres das trevas que preferem agir nas sombras, Mortos-Vivos não gostam de estarem expostos ao sol extremo, pegando fogo caso estajem na luz de um",
+
+    "Skill1":{
+        "type": "origins:model_color",
+    "alpha": 0.5
+
+    },
+
+    "Skill2":{
+        "type": "origins:burn",
+        "interval": 20,
+        "burn_duration": 6,
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:exposed_to_sun"
+            },
+            {
+              "type": "origins:invisible",
+              "inverted": true
+            }
+          ]
+        }
+
+    },
+
+    "Skill3":{
+
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "custom:mapa_pirata",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:paper"
+            },
+            {
+                "item": "minecraft:paper"
+            }
+        ],
+        "result": {
+            "item": "minecraft:treasseru",
+            "count": 1
+        }
+    }
+}

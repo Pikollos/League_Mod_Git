@@ -1,0 +1,10 @@
+{
+    "type": "origins:starting_equipment",
+    "name":"Elmo de Honra",
+    "description":"Ninjas sempre estão preparados, oque se confirma ao começarem com um capaceta de malha, para assim poderem esconder sua identidade",
+    "stacks": [
+        {
+            "item": "minecraft:chainmail_helmet"
+        }
+    ]
+}

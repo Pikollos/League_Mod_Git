@@ -1,0 +1,25 @@
+{
+    "type": "origins:restrict_armor",
+    "name":"Resistência de Luxo",
+    "description":"Piratas sempre preferm viver ao luxo máximo, rejeitando armaduras abaixo do nivel do ferro",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 2
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 6
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 5
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 2
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "origins:restrict_armor",
+    "name":"Liberdade Ágil",
+    "description":"Para poderem se movimentar e fazer acrobacias de forma leve, ninjas não podem equipar armaduras pesadas, somente até o nível de malha ",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 2
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 5
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 4
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 1
+    }
+}

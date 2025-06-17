@@ -1,0 +1,8 @@
+{
+	"type":"origins:modify_player_spawn",
+	"name":"Origens Náufragas",
+    "description":"O nascimento dos piratas já ocorre nos barcos, pra eles ja aprenderem como funciona a vida nos sete mares",
+	"dimension":"minecraft:overworld",
+	"structure":"minecraft:shipwreck",
+	"spawn_strategy": "center"
+}

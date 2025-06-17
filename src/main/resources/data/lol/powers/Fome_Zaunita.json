@@ -1,0 +1,11 @@
+{
+    "type": "origins:exhaust",
+    "name":"Apetite Químico",
+    "description":"Por conta do alto uso de Cintila, Zaunitas perdem diversos outros nutrientes. Sendo necessário comer mais comida doque o padrão",
+    "interval": 20,
+    "exhaustion": 0.812,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:phantomize"
+    }
+  }

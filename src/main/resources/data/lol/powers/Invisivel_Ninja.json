@@ -1,0 +1,39 @@
+{
+    "type": "origins:multiple",
+    "name":"Salto Das Sombras",
+    "description":"Com incríveis manobras, ninjas tem a capacidade de poder se lançar para cima e ficar invisível durante um breve período",
+
+    "Skill1":{
+        "type": "origins:active_self",
+    
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:invisibility",
+        "duration": 100
+      }
+    },
+    "cooldown": 400,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+    },
+
+    "Skill2":{
+        "type": "origins:launch",
+    "cooldown": 400,
+    "hud_render": {
+        "bar_index": 4
+    },
+    "sound": "minecraft:entity.parrot.fly",
+    "speed": 0.80,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    }
+    },
+
+    "Skill3":{
+
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name":"Casca Metáçica",
+    "description":"Durante a criação de robôs, seus mestre usaram materiais muito resistentes. Resultando em uma defesa natural dos robôs de 3 pontos de armadura",
+    "modifier": {
+        "name": "Armor increase",
+        "attribute": "minecraft:generic.armor",
+        "value": 6,
+        "operation": "addition"
+    }
+}

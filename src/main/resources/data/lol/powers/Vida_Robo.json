@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name":"Durabilidade Fortificada",
+    "description":"Robos sempre estarao dispostos a proteger, até mesmo colocando seus 4 corações de vida extra a risco",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.max_health",
+        "value": 8,
+        "operation": "addition"
+    }
+}

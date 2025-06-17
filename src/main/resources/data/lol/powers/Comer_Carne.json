@@ -1,0 +1,23 @@
+{
+    "type": "origins:prevent_item_use",
+    "condition": {
+    "type": "origins:and",
+    "conditions": [
+        {
+            "type":"origins:food"
+
+        },
+        {      
+            "type": "origins:meat",
+            "inverted": true
+           
+        }
+    ],
+  
+    }
+}
+
+
+
+
+  

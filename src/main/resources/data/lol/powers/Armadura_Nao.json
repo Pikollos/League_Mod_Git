@@ -1,0 +1,20 @@
+{
+    "type": "origins:restrict_armor",
+    "name":"Corpos de Mini-Guerreiros",
+    "description":"Devido ao corpo ligeiramente pequeno dos yordles, nenhuma armadura exceto capacetes, cabem em seu corpo, sendo impossivel equipa-lás",
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 50
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 40
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 100
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "origins:active_self",
+    "name":"Experiência em Batalha",
+    "description":"Após tantos confrontos, Noxianos aprederam como podem durar mais em campo de batalha, podendo ativar o efeito de resistência, durante 10 segundos",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 200,
+        "amplifier": 0
+      }
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 3
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+    
+  }
+  

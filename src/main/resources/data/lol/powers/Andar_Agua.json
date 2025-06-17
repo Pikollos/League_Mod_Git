@@ -1,0 +1,7 @@
+{
+    "type": "origins:walk_on_fluid",
+    "name":"Pézinhos De Bebês",
+    "description":"Com sua extrema leveza e pés pequenininhos, yordles sempre boiam na água, sendo impossível de afundar",
+    "fluid": "minecraft:water"
+    
+}

@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"lol:Vida_Robo",
+		"lol:Armadura_Robo",
+		"lol:Comer_Metal",
+		"lol:Dormir_Robo",
+		"lol:Tamanho_Robo",
+		"lol:Regen_Nao",
+		"lol:Dano_Agua",
+		"lol:Cura_Robo(comida)",
+		"lol:Cura_Robo(pocao)",
+		"origins:no_shield"
+			
+	],
+	"icon": "minecraft:redstone_torch",
+	"order": 0,
+	"impact": 1,
+	"name": "Robo",
+	"description": "EXTERMINAR"
+}

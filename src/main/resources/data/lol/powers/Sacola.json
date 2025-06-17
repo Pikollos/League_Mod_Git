@@ -1,0 +1,9 @@
+{
+  "type": "origins:inventory",
+  "name":"Estoque Arrojado",
+  "description":"Yordles sempre tem um truque escondido em suas mangas, ou nesse caso em suas sacolas. Já que yordles tem acesso a uma mochila de 5 espaços",
+  "container_type": "hopper",
+  "key": {
+        "key": "key.origins.primary_active"
+  }
+}

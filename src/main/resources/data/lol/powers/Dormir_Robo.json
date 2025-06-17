@@ -1,0 +1,17 @@
+{
+    "type": "origins:prevent_sleep",
+    "name": "Cama Hextec",
+    "description" :"Por conta de serem seres energizados, robôs precisam abaster suas energias em camas com 3 blocos de ferro em sua volta",
+    "block_condition": {
+        "type": "origins:adjacent",
+        "adjacent_condition": { 
+                    "type": "origins:block",
+                    "block": "minecraft:iron_block"
+        },
+                    "comparison": "<",
+                    "compare_to": 3
+                
+            
+        
+    }
+}

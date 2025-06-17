@@ -1,0 +1,160 @@
+{
+    "type": "origins:multiple",
+    "name":"Abstinência De Cintila",
+    "description":"Entrar no mundo da poções pode ser uma viagem sem volta, já que após tomar sua primeira poção, Zaunistas se sentem obrigados a tomarem novamente , chegando a ficar com cegueira",
+    "HUD": {
+        "type": "origins:cooldown",
+        "cooldown": 50000,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 3,
+            "inverted": true
+        }
+    },
+
+    "Tremer":{
+        "type": "origins:shaking",
+        "name":"Abstinência de Cintila",
+        "description":"",
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                { "type": "origins:status_effect", "effect": "minecraft:speed" },
+                { "type": "origins:status_effect", "effect": "minecraft:slowness" },
+                { "type": "origins:status_effect", "effect": "minecraft:haste" },
+                { "type": "origins:status_effect", "effect": "minecraft:mining_fatigue" },
+                { "type": "origins:status_effect", "effect": "minecraft:strength" },
+                { "type": "origins:status_effect", "effect": "minecraft:instant_health" },
+                { "type": "origins:status_effect", "effect": "minecraft:instant_damage" },
+                { "type": "origins:status_effect", "effect": "minecraft:jump_boost" },
+                { "type": "origins:status_effect", "effect": "minecraft:nausea" },
+                { "type": "origins:status_effect", "effect": "minecraft:regeneration" },
+                { "type": "origins:status_effect", "effect": "minecraft:resistance" },
+                { "type": "origins:status_effect", "effect": "minecraft:fire_resistance" },
+                { "type": "origins:status_effect", "effect": "minecraft:water_breathing" },
+                { "type": "origins:status_effect", "effect": "minecraft:invisibility" },
+                { "type": "origins:status_effect", "effect": "minecraft:blindness" },
+                { "type": "origins:status_effect", "effect": "minecraft:night_vision" },
+                { "type": "origins:status_effect", "effect": "minecraft:hunger" },
+                { "type": "origins:status_effect", "effect": "minecraft:weakness" },
+                { "type": "origins:status_effect", "effect": "minecraft:poison" },
+                { "type": "origins:status_effect", "effect": "minecraft:wither" },
+                { "type": "origins:status_effect", "effect": "minecraft:health_boost" },
+                { "type": "origins:status_effect", "effect": "minecraft:absorption" },
+                { "type": "origins:status_effect", "effect": "minecraft:saturation" },
+                { "type": "origins:status_effect", "effect": "minecraft:glowing" },
+                { "type": "origins:status_effect", "effect": "minecraft:levitation" },
+                { "type": "origins:status_effect", "effect": "minecraft:luck" },
+                { "type": "origins:status_effect", "effect": "minecraft:unluck" },
+                { "type": "origins:status_effect", "effect": "minecraft:slow_falling" },
+                { "type": "origins:status_effect", "effect": "minecraft:conduit_power" },
+                { "type": "origins:status_effect", "effect": "minecraft:dolphins_grace" },
+                { "type": "origins:status_effect", "effect": "minecraft:bad_omen" },
+                { "type": "origins:status_effect", "effect": "minecraft:hero_of_the_village" },
+                { "type": "origins:status_effect", "effect": "minecraft:darkness" },
+                { "type": "origins:status_effect", "effect": "minecraft:binding" },
+                { "type": "origins:status_effect", "effect": "minecraft:fluidspeed" }
+            ],
+            "inverted": true
+        }
+    },
+    
+
+
+    "Pocao": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "lol:Pocao_Zaunita_HUD"
+                },
+                {
+                    
+                    "type": "origins:change_resource",
+                    "resource": "lol:Pocao_Zaunita_Trigger",
+                    "change": 1
+                    
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:slowness"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:blindness"
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 1.0,
+                    "saturation": 1.0
+                }
+            ]
+        },
+"item_condition": {
+    "type": "origins:and",
+    "conditions": [
+        {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:potion"
+            }
+        },
+        {
+            "type": "origins:nbt",
+            "nbt": "{Potion:\"minecraft:water\"}",
+            "inverted": true
+        }
+    ]
+}
+
+    },
+
+
+    "Trigger": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1
+    },
+    "Temporizador": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 1000,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:blindness",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            ]
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "lol:Pocao_Zaunita_HUD",
+                    "comparison": "<=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "lol:Pocao_Zaunita_Trigger",
+                    "comparison": "=",
+                    "compare_to": 1
+                }
+            ]
+        }
+    }
+}

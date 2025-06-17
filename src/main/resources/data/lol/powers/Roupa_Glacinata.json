@@ -1,0 +1,19 @@
+{
+    "type": "origins:starting_equipment",
+    "name":"Pele revestida",
+    "description":"Já sabendo do frio extremo que podem enfrentar, glacinatas já começam com um conjunto completo de roupa de couro",
+    "stacks": [
+        {
+            "item": "minecraft:leather_boots"
+        },
+        {
+            "item": "minecraft:leather_helmet"
+        },
+        {
+            "item": "minecraft:leather_leggings"
+        },
+        {
+            "item": "minecraft:leather_chestplate"
+        }
+    ]
+}

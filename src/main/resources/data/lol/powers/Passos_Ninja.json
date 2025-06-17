@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+    "name":"Passos Furtivos",
+    "description":"Furtividade é essencial no campo de batalho, por conta disso, ninjas calculam cada passo para evitar fazer o mínimo barulho",
+
+    "Skill1":{
+        
+            "type": "origins:prevent_game_event",
+            "event": "minecraft:step"
+          
+    },
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}

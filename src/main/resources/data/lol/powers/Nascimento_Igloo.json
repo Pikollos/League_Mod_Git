@@ -1,0 +1,7 @@
+{
+	"type":"origins:modify_player_spawn",
+	"name":"Abrigo Quentinho",
+    "description":"Glacinatas vem de lugares feitos para serem uma cabana com aquecimento, também conhecidos como iglu",
+	"dimension":"minecraft:overworld",
+	"structure":"minecraft:igloo"
+}

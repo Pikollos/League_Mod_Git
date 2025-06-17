@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"lol:Nascimento_Igloo",
+		"lol:Roupa_Glacinata",
+		"lol:Deslizar",
+		"lol:Bioma_Quente",
+		"lol:Slow_Hit",
+		"lol:CraftGelo",
+		"lol:Bola_De_Neve"
+	],
+	"icon": "minecraft:snowball",
+	"order": 0,
+	"impact": 1,
+	"name": "Glacinatas",
+	"description": "BUUUUURRRRR QUE FRIO"
+}

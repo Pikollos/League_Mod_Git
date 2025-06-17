@@ -1,0 +1,8 @@
+{
+	"type":"origins:modify_player_spawn",
+	"name":"Templo de Heróis",
+    "description":"Por serem considarados Heóis entre o povo da areia, Ascendentes tem o direito de começarem em um templo do deserto",
+	"dimension":"minecraft:overworld",
+	"structure":"minecraft:desert_pyramid",
+	"spawn_strategy": "center"
+}

@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"lol:Nascimento_Templo_Deserto",
+		"lol:Fogo_Nao",
+		"lol:Craft_Soulsand"
+	],
+	"icon": "minecraft:sand",
+	"order": 0,
+	"impact": 1,
+	"name": "Ascendente",
+	"description": "Shurima"
+}

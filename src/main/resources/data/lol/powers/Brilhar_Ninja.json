@@ -1,0 +1,24 @@
+{
+    "type": "origins:multiple",
+    "name":"Brilhar",
+    "description":"Brilha estrelinha",
+
+    "Skill1":{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=..50] minecraft:glowing 10 true"
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+    },
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}

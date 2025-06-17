@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"lol:Queimar_Sol",
+		"lol:Almas",
+		"lol:Reviver"
+	],
+	"icon": "minecraft:skeleton_skull",
+	"order": 0,
+	"impact": 1,
+	"name": "Morto_Vivo",
+	"description": "BUUUUHHHH"
+}

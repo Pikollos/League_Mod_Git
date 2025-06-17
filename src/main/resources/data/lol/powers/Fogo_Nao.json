@@ -1,0 +1,8 @@
+{
+    "type": "origins:invulnerability",
+    "name":"Passado Escaldante ",
+    "description":"Após tantos anos sobrevivendo no quente e árido clima do deserto, ascendentes não se importam mais com o calor, sendo totalmente imunes a dano de fogo",
+    "damage_condition": {
+      "type": "origins:fire"
+    }
+  }

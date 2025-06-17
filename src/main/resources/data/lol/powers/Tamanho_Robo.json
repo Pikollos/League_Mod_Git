@@ -1,0 +1,9 @@
+{
+    "type": "origins:action_on_callback",
+    "name":"Frase nerd de arcane",
+    "description":"Os robôs foram criados para serem defensores intimidadores, sendo calculadamente montados com 3 blocos de altura",
+    "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "scale set pehkui:base 1.5"
+}
+}

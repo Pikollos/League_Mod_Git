@@ -1,0 +1,25 @@
+{
+    "type": "origins:damage_over_time",
+    "name":"Hidroestática",
+    "description":"Pelo fato de carregarem muita energia, Robôs tomam dano ao entrar em contato com a água",
+    "interval": 20,
+    "onset_delay": 1,
+    "damage": 2,
+    "damage_easy": 1,
+    "damage_source": {
+      "name": "hurt_by_water",
+      "unblockable": true,
+      "bypasses_armor": true
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0.0
+        }
+      ]
+    }
+  }

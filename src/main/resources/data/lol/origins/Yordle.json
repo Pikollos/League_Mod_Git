@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"lol:Sacola",
+		"lol:Andar_Agua",
+		"lol:Armadura_Nao",
+		"lol:Tamanho_Yordle",
+		"origins:no_shield"
+
+		
+
+	],
+	"icon": "minecraft:rabbit_foot",
+	"order": 0,
+	"impact": 1,
+	"name": "Yordle",
+	"description": "Cuti Cuti"
+}

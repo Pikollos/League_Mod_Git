@@ -1,0 +1,56 @@
+{
+    "type": "origins:multiple",
+    "name":"",
+    "description":"",
+
+
+    "Trava":{
+        "type": "origins:resource",
+            "min": 0,
+            "max": 1
+    },
+
+    "Prevenir_Morte":{
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "lol:Reviver_Trava",
+                    "change": 1
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:instant_health",
+                            "amplifier": 10
+                        },
+                        {
+                            "effect": "minecraft:fire_resistance",
+                            "duration": 800
+                        },
+                        {
+                            "effect": "minecraft:absorption",
+                            "amplifier": 1,
+                            "duration": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        "condition":{
+            "type": "origins:resource",
+            "resource": "lol:Reviver_Trava",
+            "comparison": "=",
+            "compare_to": 0
+        }
+    },
+
+
+
+    "Modo_Espirito":{
+        
+    }
+}

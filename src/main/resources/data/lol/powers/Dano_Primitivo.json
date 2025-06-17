@@ -1,0 +1,34 @@
+{
+    "type":"origins:modify_damage_dealt",
+    "name":"Caça Primitiva",
+    "description":"Vastayas preferem armas de pedra para caçar, rejeitando materiais avançados. Por isso, causam mais dano com armas de pedra, mas não conseguem ferir com armas de ferro ou superiores.",
+    "condition":{
+        "type": "origins:or",
+        "conditions":[
+        {"type":"origins:equipped_item",
+        
+        "equipment_slot":"mainhand",
+        "item_condition":{
+            "type":"origins:ingredient",
+            "ingredient":{
+                "item":"minecraft:stone_sword"
+            }
+        }
+    },
+    {"type":"origins:equipped_item",
+        
+        "equipment_slot":"mainhand",
+        "item_condition":{
+            "type":"origins:ingredient",
+            "ingredient":{
+                "item":"minecraft:stone_axe"
+            }
+        }
+    }
+    ]
+    },
+    "modifier":{
+        "operation":"multiply_total",
+        "value":0.20
+    }
+}

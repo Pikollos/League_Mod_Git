@@ -1,0 +1,26 @@
+{
+    "type": "origins:multiple",
+    "name":"Criaturas Adoraveis",
+    "description":"Yordles são criaturas que não podem fazer um mal a ninguém. Mas cuidado! Esse meio bloco de altura pode não gostar se voce zombar do seu tamanho",
+
+    "Tamanho":{
+        "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "scale set pehkui:base 0.5"
+}
+
+    },
+
+    "Skill2":{
+        "type": "origins:modify_jump",
+    "name":"",
+    "description":"",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.2
+    }
+
+
+    }
+}

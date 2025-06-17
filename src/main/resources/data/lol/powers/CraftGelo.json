@@ -1,0 +1,39 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "origins:master_of_webs/web_crafting",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            },
+                        {
+                "item": "leaguemod:geloverdadeiro"
+            }
+        ],
+        "result": {
+            "item": "leaguemod:gemagelo"
+        }
+    }
+}

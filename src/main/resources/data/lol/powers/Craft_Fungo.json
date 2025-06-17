@@ -1,0 +1,29 @@
+{
+    "type": "origins:mutiples",
+
+    "Fungo": {
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "custom:fungo_zaunita",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:mushroom_stew"
+            },
+            {
+                "item": "minecraft:fermented_spider_eye"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+            {
+                "item": "minecraft:torch"
+            }
+        ],
+        "result": {
+            "item": "minecraft:nether_wart",
+            "count": 1
+        }
+    }
+}
+}

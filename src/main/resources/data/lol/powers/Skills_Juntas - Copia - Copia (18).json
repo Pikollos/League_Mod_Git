@@ -1,0 +1,63 @@
+{
+    "type": "origins:multiple",
+    "name":"Aversão ao calor",
+    "description":"",
+
+"Temporizador": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 1000,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:blindness",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            ]
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "lol:Pocao_Zaunita_HUD",
+                    "comparison": "<=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "lol:Pocao_Zaunita_Trigger",
+                    "comparison": "=",
+                    "compare_to": 1
+                }
+            ]
+        }
+    },
+
+    "HUD": {
+        "type": "origins:cooldown",
+        "cooldown": 50000,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 3,
+            "inverted": true
+        }
+    },
+
+    "Skill3":
+    {
+        "type": "origins:trigger_cooldown",
+        "power": "lol:Dano_Calor_HUD"
+                
+    }
+}
