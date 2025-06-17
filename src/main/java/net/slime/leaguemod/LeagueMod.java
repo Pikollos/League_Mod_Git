@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.slime.leaguemod.block.ModBlocks;
 import net.slime.leaguemod.item.ModItem;
 import org.slf4j.Logger;
 
@@ -26,6 +27,7 @@ public class LeagueMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItem.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -44,6 +46,7 @@ public class LeagueMod {
             event.accept(ModItem.GELOVERDADEIRO);
             event.accept(ModItem.GEMAGELO);
             event.accept(ModItem.CRISTAL);
+            event.accept(ModBlocks.BLOCO_GELO);
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) { // Verifique se é a aba de comida
             event.accept(ModItem.CERVEJA); // Adiciona a Cerveja

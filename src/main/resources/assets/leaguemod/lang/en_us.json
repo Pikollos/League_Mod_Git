@@ -3,6 +3,9 @@
   "item.leaguemod.geloverdadeiro":"True Ice",
   "item.leaguemod.cristal":"Crystal",
   "item.leaguemod.cerveja":"Beer",
-  "item.leaguemod.baldediamante":"Melted Diamond"
+  "item.leaguemod.baldediamante":"Melted Diamond",
+
+
+  "block.leaguemod.bloco_gelo": "True Ice Block"
 }
 
