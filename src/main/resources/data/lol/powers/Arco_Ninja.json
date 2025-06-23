@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+    "name":"Costume Ocidental",
+    "description":"O aprendizado do ninja, em seus treinamentos de infancia, fazem com que sejam incapazes de utilizar arcos, shuriken ",
+
+    "Skill1":{
+
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:equipment",
+        "equipment_slot": "offhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:bow"
+            }
+        }
+
+}
+
+},
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}

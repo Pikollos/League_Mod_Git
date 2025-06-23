@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
-    "name":"",
-    "description":"",
+    "name":"Banquete",
+    "description":"Para suprir sua fome insaciável, os seres do vazio consomem suas vitimas, curando parte da sua fome ao matar",
 
     "Skill1":{
         "type":"origins:prevent_item_use",

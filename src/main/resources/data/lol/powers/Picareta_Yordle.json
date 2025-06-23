@@ -1,0 +1,28 @@
+{
+    "type": "origins:multiple",
+    "name":"Mãos Frágeis",
+    "description":"Por conta de terem mãos muito fracas, yordles nao podem utilizar picaretas acima do nivel do ferro",
+
+    "Skill1":{
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "items": [
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:netherite_pickaxe",
+                    "minecraft:golden_pickaxe"
+                ]
+            }
+        }
+    },
+
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}

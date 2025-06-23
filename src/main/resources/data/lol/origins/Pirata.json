@@ -3,7 +3,10 @@
 		"lol:Nascimento_Barco",
 		"lol:Nadar",
 		"lol:Armadura_Pesada",
-		"lol:Bola_Fogo"
+		"lol:Bola_Fogo",
+		"lol:Sorte_Pirata",
+		"lol:Craft_Tnt",
+		"origins:no_shield"
 	],
 	"icon": "minecraft:filled_map",
 	"order": 0,

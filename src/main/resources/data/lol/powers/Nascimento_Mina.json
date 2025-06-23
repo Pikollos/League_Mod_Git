@@ -1,0 +1,8 @@
+{
+  "type":"origins:modify_player_spawn",
+  "name":"Origem Profunda",
+  "description":"Tentativas de escavação antigas deram super errado, revelando o seres do vazio",
+  "dimension":"minecraft:overworld",
+  "structure":"minecraft:mineshaft",
+  "spawn_strategy": "center"
+}

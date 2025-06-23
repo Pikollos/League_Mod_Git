@@ -1,15 +1,14 @@
 {
 	"powers": [
-		"lol:Escalar",
+		"lol:Escalar_Ninja",
 		"lol:Capacete_Ninja",
 		"lol:Armadura_Leve",
 		"lol:Night_Vision_Ninja",
-		"lol:Cura_Robo(comida)",
-		"lol:Cura_Robo(pocao)",
 		"lol:Brilhar_Ninja",
 		"lol:Invisivel_Ninja",
 		"lol:Passos_Ninja",
-		"lol:Imune_Queda"
+		"lol:Imune_Queda",
+		"lol:Arco_Ninja"
 	],
 	"icon": "minecraft:iron_hoe",
 	"order": 0,

@@ -1,0 +1,26 @@
+{
+    "type": "origins:multiple",
+    "name":"",
+    "description":"",
+
+    "Skill1":{
+        "type": "origins:effect",
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 20,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+
+
+    "Skill2":{
+
+    },
+
+    "Skill3":{
+
+    }
+}
